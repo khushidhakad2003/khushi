@@ -1,0 +1,11 @@
+.title{
+    font-family: cursive;
+  }
+  .navbar {
+    background-color: black;
+    color: white;
+  }
+
+  .searchopt {
+    float: right;
+  }
