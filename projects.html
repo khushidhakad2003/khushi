@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="nav.css">
+  <style>
+    body {
+      background-color: hsl(242, 14%, 10%);
+    }
+    .dropdown{
+      background-color: hsl(342, 92%, 46%);
+      border: solid black 2px;
+    }
+    .descr{
+      background-color: hsl(242, 14%, 10%);
+
+    }
+  </style>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="container-fluid">
+          <a class="title navbar-brand" href="#">MY PORTFOLIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="achievement.html">Achievements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="float-right">
+              <form class=" searchopt d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div></nav>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="dropdown accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>FRONTEND PROJECTS</b>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="descr accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -m-4">
+                    <!--  -->
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                      <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="website_sample.png">
+                      </a>
+                      <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HTML-CSS</h3>
+                        <h2 class="text-gray-100 title-font text-lg font-medium">DOCTOCLICK</h2>
+                        <p class="mt-1"><a href="https://sujalforselfuse.github.io/doctoclick1/">Go To Website</a></p>
+                      </div>
+                    </div>
+                    <!--  -->
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                      <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="quotes sample.png">
+                      </a>
+                      <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HTML-CSS-JS</h3>
+                        <h2 class="text-gray-100 title-font text-lg font-medium">RANDOM QUOTE GENERATOR</h2>
+                        <p class="mt-1"><a href="https://sujalforselfuse.github.io/getquotes/">Go To Website</a></p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="dropdown accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <b>BACKEND PROJECTS</b>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="descr accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -m-4">
+                    <!--  -->
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                      <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                      </a>
+                      <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">USING NODEJS</h3>
+                        <h2 class="text-gray-100 title-font text-lg font-medium">COMING SOON</h2>
+                        <p class="mt-1"><a href="">Go To Site</a></p>
+                      </div>
+                    </div>
+                    <!--  -->
+                    
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="dropdown accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <b>FULL-STACK PROJECTS</b>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="descr accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -m-4">
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                      <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                      </a>
+                      <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HTML-CSS-NODEJS-MONGODB</h3>
+                        <h2 class="text-gray-100 title-font text-lg font-medium">COMING SOON</h2>
+                        <p class="mt-1">Go To Site</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>    
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
